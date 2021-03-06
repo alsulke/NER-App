@@ -1,6 +1,4 @@
-beautifulsoup4==4.9.3
 requests==2.23.0
-requests-oauthlib==1.3.0
 streamlit==0.78.0
 spacy==2.3.5
 spacy-legacy==3.0.1
