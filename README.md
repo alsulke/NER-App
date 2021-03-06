@@ -1,12 +1,17 @@
 # SDE - Backend/ ML (Intern)
+### Streamlit Application
+<kbd>![chrome_Q42EFcr27J](https://user-images.githubusercontent.com/46842984/110217415-e9c5f600-7ed9-11eb-9bb1-7a647e62ee43.png)</kbd>
 
-#### Flask API to scrap data
+### [Watch short demo](https://youtu.be/SBIE720wbC0)
+
+<br><br>
+### Flask API to scrap data
 URL : https://flask-api-01.herokuapp.com/{raw_text} <br>
 Note: Replace ***{raw_text}*** with any keyword to fetch data
+<br><br>
+<kbd>![Postman_qHVXuZR8dj](https://user-images.githubusercontent.com/46842984/110217166-aa4ada00-7ed8-11eb-8965-2327652fcc29.png)</kbd>
 
-#### Streamlit Application
-[Watch short demo](https://youtu.be/SBIE720wbC0)
-#### Instructions
+### Instructions
 1. Clone this github repo using below command <br>
 ```git clone https://github.com/alsulke/NER-App.git```
 2. Change directory to the project folder using ``` cd <folder_name> ```
