@@ -3,7 +3,7 @@
 <kbd>![chrome_Q42EFcr27J](https://user-images.githubusercontent.com/46842984/110217415-e9c5f600-7ed9-11eb-9bb1-7a647e62ee43.png)</kbd>
 
 ### [Watch short demo](https://youtu.be/SBIE720wbC0)
-***Note streamlit application is not deployed due to some issue with heroku regarding config.toml file***
+***Note: streamlit application is not deployed due to some issue with heroku regarding config.toml file***
 <br><br>
 ### Flask API to scrap data
 URL : https://flask-api-01.herokuapp.com/{raw_text} <br>
