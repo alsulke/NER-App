@@ -5,6 +5,7 @@ import spacy
 import requests
 
 nlp = spacy.load('en_core_web_sm')
+
 def main() :
 	st.title("Streamlit App for NER")
 	menu = ["NER - WIKI API", "NER - TEXT"]
@@ -15,7 +16,7 @@ def main() :
 		raw_text = st.text_area("Your text", "Enter text")
 		# context = wikipedia.summary(raw_text)
 
-		context = requests.get(f"http://127.0.0.1:5000/{raw_text}")
+		context = requests.get(f"https://flask-api-01.herokuapp.com/{raw_text}")
 		context = context.json()
 		print(context['data'])
 		docx = nlp(context['data'])
