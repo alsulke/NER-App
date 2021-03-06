@@ -1,5 +1,4 @@
 import streamlit as st
-import wikipedia
 import spacy_streamlit
 import spacy
 import requests
@@ -14,7 +13,6 @@ def main() :
 	if(choice == "NER - WIKI API") :
 		st.subheader("Named Entity Recognition using Wiki API")
 		raw_text = st.text_area("Your text", "Enter text")
-		# context = wikipedia.summary(raw_text)
 
 		context = requests.get(f"https://flask-api-01.herokuapp.com/{raw_text}")
 		context = context.json()
