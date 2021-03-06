@@ -10,7 +10,7 @@ def main() :
 	menu = ["NER - WIKI API", "NER - TEXT"]
 	choice = st.sidebar.selectbox("Menu", menu)
 
-	if(choice == "NER - WIKI API") :
+	if(choice == "NER - WIKI API") : # Extract data using API endpoint
 		st.subheader("Named Entity Recognition using Wiki API")
 		raw_text = st.text_area("Your text", "Enter text")
 
@@ -20,7 +20,7 @@ def main() :
 		docx = nlp(context['data'])
 
 		spacy_streamlit.visualize_ner(docx,labels=nlp.get_pipe('ner').labels)
-	elif(choice == "NER - TEXT") :
+	elif(choice == "NER - TEXT") : # Type text manually
 		st.subheader("Named Entity Recognition using custom text")
 		raw_text = st.text_area("Your text", "Enter text")
 		docx = nlp(raw_text)
